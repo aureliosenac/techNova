@@ -78,7 +78,11 @@ WSGI_APPLICATION = 'techNova.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'NAME': 'technovadb_tp54',
+        'USER':'technovadb_tp54_user',
+        'PASSWORD':'6vNly9oLowjafl0SsEKuSVOvjrBogfyV',
+        'HOST:'dpg-cte3sailqhvc73dcm4q0-a.oregon-postgres.render.com/technovadb_tp54',
+        'PORT':'5432',
     }
 }
 
